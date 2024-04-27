@@ -1,0 +1,9 @@
+version: '2'
+services:
+  demo:
+    container_name: demo
+    build:
+      dockerfile: Dockerfile
+    image: demo:latest
+    ports:
+      - "8080:8080"

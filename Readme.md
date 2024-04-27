@@ -12,7 +12,8 @@ Clone the repository and import it into your favorite Java IDE, such as IntelliJ
 
 ## Running the application
 
-To run the application, execute the main application class `DemoApplication.java` within your IDE.
+To run the application, execute the main application class `BtestApplication.java` within your IDE.
+The folder src/main/resources/init/user-data.sql contains the initial data that can be loaded through h2 console for testing.
 
 ## API Endpoints
 

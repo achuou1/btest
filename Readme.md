@@ -18,13 +18,13 @@ To run the application, execute the main application class `DemoApplication.java
 
 Below are the available endpoints:
 
-- `GET /api/devices`: Fetches a list of all devices.
-- `GET /api/users`: Fetches a list of all users.
-- `GET /api/bookings/user/{userId}`: Fetches bookings made by a specified user.
-- `GET /api/bookings/{bookingId}`: Fetches a booking by booking id.
-- `GET /api/bookings/device/{deviceId}`: Fetches a booking by device id.
-- `POST /api/bookings/book`: Books a device for a user.
-- `PUT /api/bookings/return`: Returns a booked device.
+- `GET /devices`: Fetches a list of all devices.
+- `GET /users`: Fetches a list of all users.
+- `GET /bookings/user/{userId}`: Fetches bookings made by a specified user.
+- `GET /bookings/{bookingId}`: Fetches a booking by booking id.
+- `GET /bookings/device/{deviceId}`: Fetches a booking by device id.
+- `POST /bookings/book`: Books a device for a user.
+- `PUT /bookings/return`: Returns a booked device.
 
 For more detailed information, as well as the input and output formats for these endpoints, please refer to the Swagger API documentation.
 
